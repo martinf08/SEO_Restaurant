@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
+    <meta name="description" content="Informations utiles concernant les coordonnées du restaurant">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
           integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
@@ -20,9 +21,9 @@
     <div class="bloc-centre">
         <div class="bloc-gauche">
             <div class="bloc-img">
-                <img src="img/contact/exterieur-restaurant.jpg"/>
+                <img src="img/contact/exterieur-restaurant.jpg" alt="exterieur du restaurant"/>
             </div>
-            <div class="bloc-items">
+            <section class="bloc-items">
 
                 <div class="bloc-items-icons">
                     <i class="far fa-address-card fa-2x"></i>
@@ -42,16 +43,16 @@
                         Samedi 11:30–14:00, 18:30–22:00 <br/>
                         Dimanche Fermé</p>
                 </div>
-            </div>
+            </section>
 
         </div>
-        <div class="bloc-droit">
+        <section class="bloc-droit">
             <div class="bloc-map">
                 <iframe src="https://www.google.com/maps/embed?pb" frameborder="0" style="border:0"
                         allowfullscreen></iframe>
             </div>
 
-        </div>
+        </section>
     </div>
 </div>
 

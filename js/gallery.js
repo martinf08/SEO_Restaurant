@@ -173,9 +173,7 @@
 
             nextBloc = nbBloc + 1;
             nbBloc = nextBloc;
-
         }
-
 
         let indexDebut = ((nextBloc * 7) - 7);
         let indexFin;

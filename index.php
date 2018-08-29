@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
     <meta charset="utf-8"/>
     <title>Obento</title>
+    <meta name="description" content="Présentation du restaurant Simplon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
           integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -38,17 +39,17 @@
             <div class="carousel-inner" role="listbox">
 
                 <div class="item active">
-                    <img src="img/gallerie/interieur.jpg" alt="restau">
+                    <img src="img/gallerie/interieur.jpg" alt="Interieur du restaurant">
                     <div class="carousel-caption">
-                        <img src="img/logoscouuuurs.png" alt="proto-logo">
+                        <img src="img/logo.png" alt="logo">
                         <p>Intérieur</p>
                     </div>
                 </div>
 
                 <div class="item">
-                    <img src="img/gallerie/nem.jpeg" alt="restau">
+                    <img src="img/gallerie/nem.jpeg" alt="Des Nems">
                     <div class="carousel-caption">
-                        <img src="img/logoscouuuurs.png" alt="proto-logo">
+                        <img src="img/logo.png" alt="logo">
                         <p>Nem</p>
                     </div>
                 </div>
@@ -56,7 +57,7 @@
                 <div class="item">
                     <img src="img/gallerie/recette-nouvel-an.jpg" alt="restau">
                     <div class="carousel-caption">
-                        <img src="img/logoscouuuurs.png" alt="proto-logo">
+                        <img src="img/logo.png" alt="logo">
                         <p>Plat Nouvel an</p>
                     </div>
                 </div>
@@ -64,7 +65,7 @@
                 <div class="item">
                     <img src="img/gallerie/riz-poulet.jpg" alt="restau">
                     <div class="carousel-caption">
-                        <img src="img/logoscouuuurs.png" alt="proto-logo">
+                        <img src="img/logo.png" alt="logo">
                         <p>Riz poulet</p>
                     </div>
                 </div>
@@ -84,13 +85,13 @@
     </div>
 
 
-    <div id="infos">
+    <section id="infos">
         <h1>Obento<br/></h1>
         <p>description : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur laoreet ullamcorper nibh,
             sed eleifend sapien hendrerit tincidunt. Suspendisse potenti. Morbi id pharetra orci. Maecenas in nibh at
             dolor sollicitudin tempor. Nullam rutrum ligula et libero tristique, non lobortis ex molestie. Quisque nisi
             urna, ultricies et eleifend tincidunt, auctor non mauris. </p>
-    </div>
+    </section>
 </div>
 
 
