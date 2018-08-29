@@ -1,2 +1,2 @@
 RewriteCond %{HTTP_HOST} ^simplon-charleville.fr$
-RewriteRule ^(.*) http://www.simplon-charleville.fr  [QSA,L,R=301]
+RewriteRule ^(.*) http://www.simplon-charleville.fr/ftp-solo/kevin-martin/martin-f/SEO_Restaurant/  [QSA,L,R=301]

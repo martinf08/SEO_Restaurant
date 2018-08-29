@@ -1,7 +1,7 @@
 
     <div id="navbar" role="navigation">
         <fieldset>
-            <form id="formu" action="">
+            <form id="formu" action="" >
                 <button id="close"><i class="fas fa-window-close"></i></button>
 
                         <label for="date-reservation ">Indiquer la date de votre arrivée</label>
