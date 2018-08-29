@@ -94,12 +94,25 @@
             dolor sollicitudin tempor. Nullam rutrum ligula et libero tristique, non lobortis ex molestie. Quisque nisi
             urna, ultricies et eleifend tincidunt, auctor non mauris. </p>
     </section>
+    <section class="vid-container">
+        <video>
+            <source src="video/video.mp4" type="video/mp4">
+            <p>Your browser doesn't support HTML5 video.</p>
+        </video>
+        <div class="controls">
+            <button class="playpause">Play</button>
+            <button class="stop">Stop</button>
+            <button class="rwd">Rwd</button>
+            <button class="fwd">Fwd</button>
+        </div>
+        <div class="time">00:00</div>
+    </section>
 </div>
-
 
 <?php
 include("footer.php");
 ?>
 <script src="js/nav.js"></script>
+<script src="js/video.js"></script>
 </body>
 </html>
