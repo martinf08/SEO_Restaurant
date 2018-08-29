@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<urlset xmlns="http://www.google.com/schemas/sitemaps/0.9">
+    <url>
+        <loc>http://simplon-charleville.fr/ftp-solo/kevin-martin/martin-f/SEO_Restaurant/index.php</loc>
+        <lastmod>2018-08-28</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://simplon-charleville.fr/ftp-solo/kevin-martin/martin-f/SEO_Restaurant/menu.php</loc>
+        <lastmod>2018-08-28</lastmod>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://simplon-charleville.fr/ftp-solo/kevin-martin/martin-f/SEO_Restaurant/galerie.php</loc>
+        <lastmod>2018-08-28</lastmod>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://simplon-charleville.fr/ftp-solo/kevin-martin/martin-f/SEO_Restaurant/infos.php</loc>
+        <lastmod>2018-08-28</lastmod>
+        <priority>0.5</priority>
+    </url>
+
+</urlset>
