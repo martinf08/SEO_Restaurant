@@ -1,7 +1,7 @@
 <footer>
 
     <div class="sociaux padding_top25">
-        <h5>Vous pouvez nous suivre sur</h5>
+        <h3>Vous pouvez nous suivre sur</h3>
         <ul>
             <li><a href="https://twitter.com/?lang=fr" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
             <li><a href="https://fr-fr.facebook.com/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a></li>
@@ -13,7 +13,7 @@
     <div class="border_footer"></div>
 
     <div class="padding_top25">
-        <h5>Nous sommes</h5>
+        <h3>Nous sommes</h3>
         <ul>
             <li class="margin_top10">Maxime</li>
             <li class="margin_top10">Martin</li>
@@ -26,8 +26,8 @@
 
     <div class="padding_top25">
         <ul>
-            <li><h5>Simplon © 2018</h5></li>
-            <li class="margin_top10"><h5>Mentions légales</h5></li>
+            <li><h3>Simplon © 2018</h3></li>
+            <li class="margin_top10"><h3>Mentions légales</h3></li>
         </ul>
     </div>
 </footer>

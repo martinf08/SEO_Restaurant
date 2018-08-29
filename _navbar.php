@@ -27,10 +27,10 @@
             <fieldset>
         <ul id="niveau1">
             <li><a role="link" href="index.php">Notre restaurant</a></li><li class="dropdown">
-                <a href="menu.php" class="dropbtn">Menus</a>
+                <a role="link" href="menu.php" class="dropbtn">Menus</a>
                 <ul id="drop-content">
                     <li>
-                        <a href="menu.php#menu1">
+                        <a role="link" menu.php#menu1">
                             <div class="photo" id="ramen"></div>
                             <div class="details">
                                     <div class="nom">Ramen</div>
@@ -39,7 +39,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="menu.php#menu2">
+                        <a role="link" href="menu.php#menu2">
                             <div class="photo" id="tonkatsu"></div>
                             <div class="details">
                                 <div class="nom">Tonkatsu</div>
@@ -48,7 +48,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="menu.php#menu3">
+                        <a role="link" href="menu.php#menu3">
                             <div class="photo" id="yakisoba"></div>
                             <div class="details">
                                 <div class="nom">Yakisoba</div>
@@ -57,7 +57,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="menu.php#menu4">
+                        <a role="link" href="menu.php#menu4">
                             <div class="photo" id="bentou"></div>
                             <div class="details">
                                 <div class="nom">Bentou</div>
@@ -66,7 +66,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="menu.php#menu5">
+                        <a role="link" href="menu.php#menu5">
                             <div class="photo" id="sushi"></div>
                             <div class="details">
                                 <div class="nom">Sushi</div>
@@ -75,7 +75,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="menu.php#menu6">
+                        <a role="link" href="menu.php#menu6">
                             <div class="photo" id="wrap"></div>
                             <div class="details">
                                 <div class="nom">Wrap</div>
