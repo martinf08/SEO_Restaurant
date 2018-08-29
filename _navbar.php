@@ -83,7 +83,7 @@
                     </li>
                 </ul>
             </li><li>
-                <a href="gallery.php">Gallerie</a>
+                <a href="galerie.php">Gallerie</a>
             </li><li><a href="infos.php">Infos</a>
             </li><li class="declencheur">
                 <a href="#" id="btn">Réservation</a>
