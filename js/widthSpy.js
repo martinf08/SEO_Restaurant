@@ -13,5 +13,6 @@ function widthSpy() {
     affichage.style.left = '10px';
     affichage.style.padding = '15px';
     affichage.style.color = 'yellow';
-    affichage.style.zIndex = 9;
+    affichage.style.zIndex = 999;
 }
+

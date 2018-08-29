@@ -1,7 +1,9 @@
 
-    <div id="navbar">
+    <div id="navbar" role="navigation">
+        <fieldset>
             <form id="formu" action="">
                 <button id="close"><i class="fas fa-window-close"></i></button>
+
                         <label for="date-reservation ">Indiquer la date de votre arrivée</label>
                         <input type="date" id="date-reservation">
                         <label for="personnes">Sélectionner le nombre de personnes</label>
@@ -22,9 +24,9 @@
                     <input type="submit" value="Submit">
               
             </form>
-    
+            <fieldset>
         <ul id="niveau1">
-            <li><a href="index.php">Notre restaurant</a></li><li class="dropdown">
+            <li><a role="link" href="index.php">Notre restaurant</a></li><li class="dropdown">
                 <a href="menu.php" class="dropbtn">Menus</a>
                 <ul id="drop-content">
                     <li>
@@ -83,13 +85,14 @@
                     </li>
                 </ul>
             </li><li>
-                <a href="galerie.php">Gallerie</a>
-            </li><li><a href="infos.php">Infos</a>
+                <a  role="link" href="galerie.php">Gallerie</a>
+            </li><li><a role="link" href="infos.php">Infos</a>
             </li><li class="declencheur">
-                <a href="#" id="btn">Réservation</a>
+                <a role="link" href="#" id="btn">Réservation</a>
             </li>
         </ul>     
-        <button id="burger">
+        <button role="button" id="burger">
                 <i class="fas fa-bars"></i>
             </button>  
 </div>
+    <script src="js/menu.js"></script>

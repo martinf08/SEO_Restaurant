@@ -17,6 +17,11 @@
     <?php
     include('_navbar.php');
     ?>
+    <div class="breadcrumb">
+        <a href="index.php">Accueil</a>
+        > Informations
+
+    </div>
     <h1>Informations</h1>
     <div class="bloc-centre">
         <div class="bloc-gauche">
