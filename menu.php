@@ -24,7 +24,13 @@
 
 <main>
 <?php include('_navbar.php'); ?>
+
     <section id="menu1">
+        <div class="breadcrumb">
+            <a href="index.php">Accueil</a>
+            > Menu
+
+        </div>
         <div class="menu">
             <div class="photo-menu">
                 <div class="titre">

@@ -8,7 +8,13 @@ div {
     font-family: 'Jap Brush';
     src: url(../font/JAPAB___.TTF);
 }
-
+.breadcrumb {
+    margin-top: 50px;
+}
+a {
+    color: #039be5;
+    text-decoration: none;
+}
 #corps {
     display: flex;
     flex-direction: column;

@@ -84,7 +84,9 @@
         </div>
     </div>
 
-
+    <div class="breadcrumb">
+        Accueil
+    </div>
     <section id="infos">
         <h1>Obento<br/></h1>
         <p>description : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur laoreet ullamcorper nibh,

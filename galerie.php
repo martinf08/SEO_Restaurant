@@ -32,6 +32,13 @@ echo '<div id="corps">';
 
 include('_navbar.php');
 
+?>
+<div class="breadcrumb">
+    <a href="index.php">Accueil</a>
+    > Gallerie
+
+</div>
+<?php
 echo '<div class="titre"><h1>Galerie</h1></div>';
 echo '<div id="gallery-container">';
 foreach ($arr as $element) {
