@@ -1,12 +1,16 @@
 (function () {
     let video = document.querySelector('video');
     if (video != 'undefined') {
+
+        //Vars
         let playpause = document.querySelector('.playpause');
         let stop = document.querySelector('.stop');
         let rwd = document.querySelector('.rwd');
         let fwd = document.querySelector('.fwd');
         let time = document.querySelector('.time');
         let timeInter;
+
+        //Events
         playpause.addEventListener('click', function () {
             if (video.paused) {
                 videoStart();
@@ -34,6 +38,7 @@
             }
         });
 
+        //Functions
         function videoStart() {
             playpause.textContent = 'Pause';
             video.play();
