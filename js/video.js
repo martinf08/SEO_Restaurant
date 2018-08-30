@@ -10,6 +10,13 @@
         let time = document.querySelector('.time');
         let timeInter;
 
+        //Tab key down event
+        document.addEventListener('keyup', function (e) {
+            if (e.keyCode == 9) {
+                selectControls(e.target.classList[0]);
+            }
+        });
+
         //Events
         playpause.addEventListener('click', function () {
             if (video.paused) {
@@ -66,12 +73,32 @@
             let minutes = parseInt(timer / 60, 10);
             let seconds = parseInt(timer % 60, 10);
 
-            if (minutes < 10) { minutes = "0" + minutes; }
-            if (seconds < 10) { seconds = "0" + seconds; }
+            if (minutes < 10) {
+                minutes = "0" + minutes;
+            }
+            if (seconds < 10) {
+                seconds = "0" + seconds;
+            }
 
             time.textContent = minutes + ":" + seconds;
         }
 
+        function selectControls(targetClass) {
+            let buttons = document.querySelectorAll('.controls button');
+            let buttonsClass = [];
+            for (let i = 0; i < buttons.length; i++) {
+                buttonsClass.push(buttons[i].classList[0]);
+            }
+            for (let i = 0; i < buttonsClass.length; i++) {
+                if (targetClass == buttonsClass[i]) {
+                    buttons[i].style.border = '3px dashed red';
+
+                }
+                else {
+                    buttons[i].style.border = '1px solid black';
+                }
+            }
+        }
     }
 
 })();
